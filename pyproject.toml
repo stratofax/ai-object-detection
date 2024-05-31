@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai-object-detection"
+version = "0.1.0"
+description = "detect different types of objects in image files"
+authors = ["Neil Johnson <neil@cadent.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+opencv-python = "^4.9.0.80"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
